@@ -3,7 +3,7 @@ const {
   recursiveDepthFirstTraversal,
 } = require("./02DFT");
 const { breadthFirstTraversal } = require("./03BFT");
-const { treeSumWithDFT, treeSumWithBFT } = require("../Problems/treeSum/treeSum");
+const { treeSumWithDFT, treeSumWithBFT } = require("../Problems/01TreeSum");
 
 class BSTNode {
   constructor(key, left = null, right = null) {
